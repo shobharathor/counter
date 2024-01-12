@@ -13,7 +13,26 @@ body{
         
         /* background: linear-gradient(90deg, rgb(120, 148, 249) 0%,rgb(146, 233, 224) 60%); */
 }
+#display{
+    width:500px;
+    height:100px;
+    position: absolute;
+    bottom:10%;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    color: black;
+    padding:30px 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.msg{
+  animation:  0.5s msg linear;
+  transition: 0.2s linear 1s; 
 
+}
 
 
 
